@@ -10,5 +10,12 @@ function ListNode(x) {
 
 
 function mergeTwoLinkedLists(l1, l2) {
-
+	// return Object.assign(l1, l2);
+	return 'wat?';
 }
+
+var l1 = new ListNode(10);
+var l2 = new ListNode(20);
+
+console.warn('task 3');
+console.log(mergeTwoLinkedLists(l1, l2));
